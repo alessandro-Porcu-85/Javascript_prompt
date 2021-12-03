@@ -1,0 +1,11 @@
+#container {
+    width: 25%;
+    background-color: red;
+    margin: auto;
+    padding: 15px;
+    color: white;
+}
+
+h1 {
+    color: blue;
+}

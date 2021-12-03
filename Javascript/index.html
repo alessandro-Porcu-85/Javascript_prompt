@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--
+    <script>
+        var name, age, city;
+
+        name = prompt("Introduce your name:");
+        while (!NaN(name)) {
+            name = prompt("introduce a valid name");
+        }
+
+
+        age = prompt("Introduce your age:");
+
+        while (age <= 0 || age < 105) {
+            age = prompt("Introduce a valid age")
+        }
+
+
+        city = prompt("Introduce your city:");
+
+        while (!NaN(city)) {
+            city = prompt("introduce a valid city");
+        }
+    </script>
+    -->
+
+    <script>
+        function write_name(name) {
+            document.write(name);
+
+
+        }
+
+        var the_name = prompt("Please, Introduce your name:")
+    </script>
+</head>
+
+<body id="color_body">
+
+    <h1>Javascript</h1>
+    <!--
+    <input type="button" id="button_1">
+    <input type="button" id="button_2">
+
+    <input type="text" id="mysquare">
+-->
+
+
+
+    <p style="font-size: 24px; font-weight: bold;">Hola:
+        <script>
+            write_name(the_name)
+        </script> Welcome to Javascript!
+    </p>
+    <!--
+    <div id="container">
+
+        <p>Name:
+            <script>
+                document.write(name);
+            </script>
+        </p>
+        <p>Age:
+            <script>
+                document.write(age);
+            </script>
+        </p>
+        <p>City:
+            <script>
+                document.write(city);
+            </script>
+        </p>
+
+
+    </div>
+-->
+
+</body>
+<!--JQuey file-->
+<script src="js/jquery.min.js"></script>
+
+
+<!--JS file-->
+<script src="js/main.js"></script>
+
+</html>
